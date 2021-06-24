@@ -57,12 +57,52 @@ public class MyZadachki {
             sum = sum + i;
         }
         System.out.print("=" + sum);
-        
+
         */
+        //Задача6.Спортсмен//
+         /*   double day1Km = 10;
+            double percent = 10;
+            int days = 7;
+            double kmFor7Days = 0;
+            for (int i = 0; i < days; i++) {
+                kmFor7Days += day1Km;
+                day1Km = day1Km + ((day1Km * percent) / 100);
+            }
+            System.out.println(kmFor7Days);
+          */
+
+
+        //Задача 7.Амеба//
+       /* int hours = 24;
+        int amebaBefore = 0;
+        int amebaAfter = 2;
+        for (int i = 3; i <= hours; i = i + 3) {
+            amebaBefore = amebaAfter;
+            amebaAfter = (amebaBefore * 2) + amebaBefore;
+            System.out.println("For " + i + " hours "+ amebaBefore + " ameb.");
+
+        */
+        //Задача 8.Дюймы//
+       /* double cm1 = 2.54;
+        double dnext = 0;
+        String inch;
+        for (int i = 1; i <= 20; i++) {
+            dnext = cm1 * i;
+            inch = i == 1 ? "дюйме" : "дюймах";
+            System.out.println("в " + i + " " + inch + " = " + dnext + " см");
+
+        */
+
+        }
 
 
     }
-}
+
+
+
+
+
+
 
 
 
